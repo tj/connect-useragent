@@ -25,11 +25,11 @@ connect()
 provides details such as the following:
 
 ```js
-{ family: 'Chrome',
-  major: '16',
+{ family: { name: 'Safari', machine: 'safari' },
+  major: '5',
   minor: '0',
-  patch: '891',
-  os: 'Mac OS X' }
+  patch: '4',
+  os: { name: 'Mac OS X', machine: 'mac-os-x' } }
 ```
 
 ## License 
