@@ -1,7 +1,7 @@
 
 # connect-useragent
 
-  A small Connect user-agent middleware exposing user-agent details to your application and views. A good idea by @guille backed by @3rd-Eden's [useragent](https://github.com/3rd-Eden/useragent) module.
+  A tiny Connect user-agent middleware exposing user-agent details to your application and views. A good idea by @guille backed by @3rd-Eden's [useragent](https://github.com/3rd-Eden/useragent) module.
 
 ## Installation
 
