@@ -3,6 +3,35 @@
 
   A small Connect user-agent middleware exposing user-agent details to your application and views. A good idea by @guille backed by @3rd-Eden's [useragent](https://github.com/3rd-Eden/useragent) module.
 
+## Installation
+
+    $ npm install connect-useragent
+
+## Example
+
+```js
+var connect = require('connect')
+  , useragent = require('connect-useragent');
+
+connect()
+  .use(connect.logger('dev'))
+  .use(useragent())
+  .use(function(req, res){
+    console.log(req.agent);
+  })
+  .listen(3000);
+```
+
+provides details such as the following:
+
+```js
+{ family: 'Chrome',
+  major: '16',
+  minor: '0',
+  patch: '891',
+  os: 'Mac OS X' }
+```
+
 ## License 
 
 (The MIT License)
