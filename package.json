@@ -5,11 +5,11 @@
   , "keywords": ["useragent", "connect", "middleware"]
   , "author": "TJ Holowaychuk <tj@vision-media.ca>"
   , "dependencies": {
-    "useragent": "1.0.0"
+    "useragent": "1.0.6"
   }
   , "devDependencies": {
     "connect": "1.7.1"
   }
   , "main": "index"
-  , "engines": { "node": "0.4.x" }
+  , "engines": { "node": "*" }
 }
